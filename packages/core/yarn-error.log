@@ -1,0 +1,63 @@
+Arguments: 
+  /Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin/node /Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin/yarn
+
+PATH: 
+  /usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/Users/jshcrowthe/google-cloud-sdk/bin:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin:/Users/jshcrowthe/.bin:/Users/jshcrowthe/.yarn-config/global/node_modules/.bin
+
+Yarn version: 
+  0.28.4
+
+Node version: 
+  8.4.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "firebase",
+    "version": "4.3.0",
+    "description": "Firebase JavaScript library for web and Node.js",
+    "author": "Firebase <firebase-support@google.com> (https://firebase.google.com/)",
+    "license": "Apache-2.0",
+    "homepage": "https://firebase.google.com/",
+    "keywords": [
+      "authentication",
+      "database",
+      "Firebase",
+      "firebase",
+      "realtime",
+      "storage"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/firebase/firebase-js-sdk.git"
+    },
+    "scripts": {
+      "prepublish": "tsc"
+    },
+    "dependencies": {
+      "@firebase/app": "^1.0.0"
+    },
+    "main": "dist/index.js",
+    "browser": "dist/browser.js"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@firebase%2fapp: Not found
+      at Request.params.callback [as _callback] (/Users/jshcrowthe/.nvm/versions/node/v8.4.0/lib/node_modules/yarn/lib/yarn-cli.js:59086:18)
+      at Request.self.callback (/Users/jshcrowthe/.nvm/versions/node/v8.4.0/lib/node_modules/yarn/lib/yarn-cli.js:114651:22)
+      at emitTwo (events.js:125:13)
+      at Request.emit (events.js:213:7)
+      at Request.<anonymous> (/Users/jshcrowthe/.nvm/versions/node/v8.4.0/lib/node_modules/yarn/lib/yarn-cli.js:115634:10)
+      at emitOne (events.js:115:13)
+      at Request.emit (events.js:210:7)
+      at IncomingMessage.<anonymous> (/Users/jshcrowthe/.nvm/versions/node/v8.4.0/lib/node_modules/yarn/lib/yarn-cli.js:115554:12)
+      at Object.onceWrapper (events.js:314:30)
+      at emitNone (events.js:110:20)
