@@ -1,0 +1,679 @@
+0 silly input [ 'publish' ]
+1 silly flags { _: [ 'publish' ], registry: 'http://localhost:4873' }
+2 verbose rootPath /Users/jshcrowthe/Repos/firebase-js-sdk
+3 info version 2.1.0
+4 info versioning independent
+5 silly isInitialized
+6 silly isInitialized true
+7 silly existsSync /Users/jshcrowthe/Repos/firebase-js-sdk/VERSION
+8 silly initialize attempt
+9 silly getUpdates
+10 info Checking for updated packages...
+11 silly hasTags
+12 verbose hasTags true
+13 silly getLastTag
+14 verbose getLastTag v4.2.0
+15 info Comparing with v4.2.0.
+16 silly diffSinceIn v4.2.0 /Users/jshcrowthe/Repos/firebase-js-sdk/packages/app
+17 silly diff packages/app/.gitignore
+17 silly diff packages/app/.npmignore
+17 silly diff packages/app/index.ts
+17 silly diff packages/app/karma.conf.js
+17 silly diff packages/app/node_modules/.bin/_mocha
+17 silly diff packages/app/node_modules/.bin/_ts-node
+17 silly diff packages/app/node_modules/.bin/acorn
+17 silly diff packages/app/node_modules/.bin/dateformat
+17 silly diff packages/app/node_modules/.bin/errno
+17 silly diff packages/app/node_modules/.bin/escodegen
+17 silly diff packages/app/node_modules/.bin/esgenerate
+17 silly diff packages/app/node_modules/.bin/esparse
+17 silly diff packages/app/node_modules/.bin/esvalidate
+17 silly diff packages/app/node_modules/.bin/handlebars
+17 silly diff packages/app/node_modules/.bin/istanbul
+17 silly diff packages/app/node_modules/.bin/js-yaml
+17 silly diff packages/app/node_modules/.bin/json5
+17 silly diff packages/app/node_modules/.bin/karma
+17 silly diff packages/app/node_modules/.bin/miller-rabin
+17 silly diff packages/app/node_modules/.bin/mime
+17 silly diff packages/app/node_modules/.bin/mkdirp
+17 silly diff packages/app/node_modules/.bin/mocha
+17 silly diff packages/app/node_modules/.bin/node-pre-gyp
+17 silly diff packages/app/node_modules/.bin/nopt
+17 silly diff packages/app/node_modules/.bin/npm-run-all
+17 silly diff packages/app/node_modules/.bin/rc
+17 silly diff packages/app/node_modules/.bin/remap-istanbul
+17 silly diff packages/app/node_modules/.bin/rimraf
+17 silly diff packages/app/node_modules/.bin/run-p
+17 silly diff packages/app/node_modules/.bin/run-s
+17 silly diff packages/app/node_modules/.bin/semver
+17 silly diff packages/app/node_modules/.bin/sha.js
+17 silly diff packages/app/node_modules/.bin/sshpk-conv
+17 silly diff packages/app/node_modules/.bin/sshpk-sign
+17 silly diff packages/app/node_modules/.bin/sshpk-verify
+17 silly diff packages/app/node_modules/.bin/strip-indent
+17 silly diff packages/app/node_modules/.bin/ts-node
+17 silly diff packages/app/node_modules/.bin/tsc
+17 silly diff packages/app/node_modules/.bin/tsserver
+17 silly diff packages/app/node_modules/.bin/uglifyjs
+17 silly diff packages/app/node_modules/.bin/user-home
+17 silly diff packages/app/node_modules/.bin/uuid
+17 silly diff packages/app/node_modules/.bin/watch
+17 silly diff packages/app/node_modules/.bin/webpack
+17 silly diff packages/app/node_modules/.bin/which
+17 silly diff packages/app/node_modules/.yarn-integrity
+17 silly diff packages/app/package.json
+17 silly diff packages/app/src/errors.ts
+17 silly diff packages/app/src/firebaseApp.ts
+17 silly diff packages/app/src/subscribe.ts
+17 silly diff packages/app/test/errors.test.ts
+17 silly diff packages/app/test/firebaseApp.test.ts
+17 silly diff packages/app/test/subscribe.test.ts
+17 silly diff packages/app/tsconfig.json
+17 silly diff packages/app/webpack.config.js
+18 silly diffSinceIn v4.2.0 /Users/jshcrowthe/Repos/firebase-js-sdk/packages/core
+19 silly diff packages/core/.gitignore
+19 silly diff packages/core/.npmignore
+19 silly diff packages/core/README.md
+19 silly diff packages/core/node_modules/.yarn-integrity
+19 silly diff packages/core/package.json
+19 silly diff packages/core/src/browser.ts
+19 silly diff packages/core/tsconfig.json
+19 silly diff packages/core/yarn-error.log
+20 silly diffSinceIn v4.2.0 /Users/jshcrowthe/Repos/firebase-js-sdk/packages/messaging
+21 silly diff packages/messaging/index.ts
+21 silly diff packages/messaging/karma.conf.js
+21 silly diff packages/messaging/node_modules/.bin/_mocha
+21 silly diff packages/messaging/node_modules/.bin/_ts-node
+21 silly diff packages/messaging/node_modules/.bin/karma
+21 silly diff packages/messaging/node_modules/.bin/mocha
+21 silly diff packages/messaging/node_modules/.bin/npm-run-all
+21 silly diff packages/messaging/node_modules/.bin/run-p
+21 silly diff packages/messaging/node_modules/.bin/run-s
+21 silly diff packages/messaging/node_modules/.bin/ts-node
+21 silly diff packages/messaging/node_modules/.bin/tsc
+21 silly diff packages/messaging/node_modules/.bin/tsserver
+21 silly diff packages/messaging/node_modules/.bin/watch
+21 silly diff packages/messaging/node_modules/.bin/webpack
+21 silly diff packages/messaging/package.json
+21 silly diff packages/messaging/src/controllers/controller-interface.ts
+21 silly diff packages/messaging/src/controllers/sw-controller.ts
+21 silly diff packages/messaging/src/controllers/window-controller.ts
+21 silly diff packages/messaging/src/helpers/array-buffer-to-base64.ts
+21 silly diff packages/messaging/src/models/db-interface.ts
+21 silly diff packages/messaging/src/models/default-sw.ts
+21 silly diff packages/messaging/src/models/errors.ts
+21 silly diff packages/messaging/src/models/fcm-details.ts
+21 silly diff packages/messaging/src/models/notification-permission.ts
+21 silly diff packages/messaging/src/models/token-details-model.ts
+21 silly diff packages/messaging/src/models/token-manager.ts
+21 silly diff packages/messaging/src/models/vapid-details-model.ts
+21 silly diff packages/messaging/src/models/worker-page-message.ts
+21 silly diff packages/messaging/tsconfig.json
+21 silly diff packages/messaging/webpack.config.js
+22 silly diffSinceIn v4.2.0 /Users/jshcrowthe/Repos/firebase-js-sdk/packages/polyfill
+23 silly diff packages/polyfill/.gitignore
+23 silly diff packages/polyfill/.npmignore
+23 silly diff packages/polyfill/index.ts
+23 silly diff packages/polyfill/package.json
+23 silly diff packages/polyfill/tsconfig.json
+24 silly diffSinceIn v4.2.0 /Users/jshcrowthe/Repos/firebase-js-sdk/packages/util
+25 silly diff packages/util/.gitignore
+25 silly diff packages/util/.npmignore
+25 silly diff packages/util/index.ts
+25 silly diff packages/util/node_modules/.yarn-integrity
+25 silly diff packages/util/package.json
+25 silly diff packages/util/src/deepCopy.ts
+25 silly diff packages/util/tsconfig.json
+26 verbose updated @firebase/app
+27 verbose updated firebase
+28 verbose updated @firebase/messaging
+29 verbose updated @firebase/polyfill
+30 verbose updated @firebase/util
+31 silly collectDependents
+32 silly isPackageDependentOf @firebase/app @firebase/app
+33 silly isPackageDependentOf @firebase/util @firebase/app
+34 silly isPackageDependentOf @firebase/app firebase
+35 silly isPackageDependentOf @firebase/util firebase
+36 silly isPackageDependentOf @firebase/app @firebase/messaging
+37 silly isPackageDependentOf @firebase/util @firebase/messaging
+38 silly isPackageDependentOf @firebase/app @firebase/polyfill
+39 silly isPackageDependentOf @firebase/util @firebase/polyfill
+40 silly isPackageDependentOf @firebase/app @firebase/util
+41 verbose dependent @firebase/app depends on @firebase/util
+42 silly isPackageDependentOf firebase @firebase/app
+43 silly isPackageDependentOf firebase firebase
+44 silly isPackageDependentOf firebase @firebase/messaging
+45 silly isPackageDependentOf firebase @firebase/polyfill
+46 silly isPackageDependentOf firebase @firebase/util
+47 silly isPackageDependentOf @firebase/messaging @firebase/app
+48 silly isPackageDependentOf @firebase/messaging firebase
+49 silly isPackageDependentOf @firebase/messaging @firebase/messaging
+50 silly isPackageDependentOf @firebase/messaging @firebase/polyfill
+51 silly isPackageDependentOf @firebase/messaging @firebase/util
+52 silly isPackageDependentOf @firebase/polyfill @firebase/app
+53 silly isPackageDependentOf @firebase/polyfill firebase
+54 silly isPackageDependentOf @firebase/polyfill @firebase/messaging
+55 silly isPackageDependentOf @firebase/polyfill @firebase/polyfill
+56 silly isPackageDependentOf @firebase/polyfill @firebase/util
+57 silly isPackageDependentOf @firebase/util @firebase/app
+58 silly isPackageDependentOf @firebase/util firebase
+59 silly isPackageDependentOf @firebase/util @firebase/messaging
+60 silly isPackageDependentOf @firebase/util @firebase/polyfill
+61 silly isPackageDependentOf @firebase/util @firebase/util
+62 silly collectUpdates
+63 verbose has filtered update @firebase/app
+64 verbose has filtered update firebase
+65 verbose has filtered update @firebase/messaging
+66 verbose has filtered update @firebase/polyfill
+67 verbose has filtered update @firebase/util
+68 silly initialize success
+69 silly execute attempt
+70 silly isDetachedHead
+71 silly getCurrentBranch
+72 verbose getCurrentBranch lerna
+73 verbose isDetachedHead false
+74 silly addFile /Users/jshcrowthe/Repos/firebase-js-sdk/packages/app/package.json
+75 silly addFile /Users/jshcrowthe/Repos/firebase-js-sdk/packages/core/package.json
+76 silly addFile /Users/jshcrowthe/Repos/firebase-js-sdk/packages/messaging/package.json
+77 silly addFile /Users/jshcrowthe/Repos/firebase-js-sdk/packages/polyfill/package.json
+78 silly addFile /Users/jshcrowthe/Repos/firebase-js-sdk/packages/util/package.json
+79 silly commit Publish
+79 silly commit
+79 silly commit  - @firebase/app@0.1.0
+79 silly commit  - firebase@0.1.0
+79 silly commit  - @firebase/messaging@0.1.0
+79 silly commit  - @firebase/polyfill@0.1.0
+79 silly commit  - @firebase/util@0.1.0
+80 verbose commit [ 'commit',
+80 verbose commit   '-F',
+80 verbose commit   '/private/var/folders/rr/jgb7mcq52kb1dbckmt7d4wcm00dq4x/T/4b4a9849-ccb2-4c42-9755-1fd360368235/lerna-commit.txt' ]
+81 silly addTag @firebase/app@0.1.0
+82 silly addTag firebase@0.1.0
+83 silly addTag @firebase/messaging@0.1.0
+84 silly addTag @firebase/polyfill@0.1.0
+85 silly addTag @firebase/util@0.1.0
+86 info publish Publishing packages to npm...
+87 silly existsSync /Users/jshcrowthe/Repos/firebase-js-sdk/packages/app/scripts/prepublish.js
+88 verbose execScript No prepublish script found at /Users/jshcrowthe/Repos/firebase-js-sdk/packages/app/scripts/prepublish.js
+89 silly existsSync /Users/jshcrowthe/Repos/firebase-js-sdk/packages/core/scripts/prepublish.js
+90 verbose execScript No prepublish script found at /Users/jshcrowthe/Repos/firebase-js-sdk/packages/core/scripts/prepublish.js
+91 silly existsSync /Users/jshcrowthe/Repos/firebase-js-sdk/packages/messaging/scripts/prepublish.js
+92 verbose execScript No prepublish script found at /Users/jshcrowthe/Repos/firebase-js-sdk/packages/messaging/scripts/prepublish.js
+93 silly existsSync /Users/jshcrowthe/Repos/firebase-js-sdk/packages/polyfill/scripts/prepublish.js
+94 verbose execScript No prepublish script found at /Users/jshcrowthe/Repos/firebase-js-sdk/packages/polyfill/scripts/prepublish.js
+95 silly existsSync /Users/jshcrowthe/Repos/firebase-js-sdk/packages/util/scripts/prepublish.js
+96 verbose execScript No prepublish script found at /Users/jshcrowthe/Repos/firebase-js-sdk/packages/util/scripts/prepublish.js
+97 verbose publishing firebase
+98 silly publishTaggedInDir latest core
+99 silly getExecOpts { cwd: '/Users/jshcrowthe/Repos/firebase-js-sdk/packages/core',
+99 silly getExecOpts   env:
+99 silly getExecOpts    { __CF_USER_TEXT_ENCODING: '0x6DC9D:0x0:0x0',
+99 silly getExecOpts      TMPDIR: '/var/folders/rr/jgb7mcq52kb1dbckmt7d4wcm00dq4x/T/',
+99 silly getExecOpts      HOME: '/Users/jshcrowthe',
+99 silly getExecOpts      SHELL: '/bin/zsh',
+99 silly getExecOpts      SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.QzIojVt9Mh/Listeners',
+99 silly getExecOpts      Apple_PubSub_Socket_Render: '/private/tmp/com.apple.launchd.keBRBoXElo/Render',
+99 silly getExecOpts      PATH: '/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/Users/jshcrowthe/google-cloud-sdk/bin:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin:/Users/jshcrowthe/.bin:/Users/jshcrowthe/.yarn-config/global/node_modules/.bin',
+99 silly getExecOpts      LOGNAME: 'jshcrowthe',
+99 silly getExecOpts      XPC_SERVICE_NAME: '0',
+99 silly getExecOpts      COMMAND_MODE: 'unix2003',
+99 silly getExecOpts      USER: 'jshcrowthe',
+99 silly getExecOpts      XPC_FLAGS: '0x0',
+99 silly getExecOpts      LANG: 'en_US.UTF-8',
+99 silly getExecOpts      TERM: 'xterm-256color',
+99 silly getExecOpts      TERM_PROGRAM: 'Hyper',
+99 silly getExecOpts      TERM_PROGRAM_VERSION: '1.4.2',
+99 silly getExecOpts      SHLVL: '1',
+99 silly getExecOpts      PWD: '/Users/jshcrowthe/Repos/firebase-js-sdk',
+99 silly getExecOpts      OLDPWD: '/Users/jshcrowthe',
+99 silly getExecOpts      FIREBASE_DEV_SETUP_HOME: '/Users/jshcrowthe/.firebase',
+99 silly getExecOpts      ZSH: '/Users/jshcrowthe/.oh-my-zsh',
+99 silly getExecOpts      PAGER: 'less',
+99 silly getExecOpts      LESS: '-R',
+99 silly getExecOpts      LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+99 silly getExecOpts      LC_CTYPE: 'en_US.UTF-8',
+99 silly getExecOpts      NVM_DIR: '/Users/jshcrowthe/.nvm',
+99 silly getExecOpts      NVM_CD_FLAGS: '-q',
+99 silly getExecOpts      NVM_NODEJS_ORG_MIRROR: 'https://nodejs.org/dist',
+99 silly getExecOpts      NVM_IOJS_ORG_MIRROR: 'https://iojs.org/dist',
+99 silly getExecOpts      MANPATH: '/usr/share/man:/usr/local/share/man:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/share/man:/usr/local/git/current/share/man:/Library/Developer/CommandLineTools/usr/share/man',
+99 silly getExecOpts      NVM_BIN: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin',
+99 silly getExecOpts      SK_SIGNING_PLUGIN: 'gnubbyagent',
+99 silly getExecOpts      _: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin/lerna',
+99 silly getExecOpts      npm_config_registry: 'http://localhost:4873' } }
+100 verbose publishing @firebase/messaging
+101 silly publishTaggedInDir latest messaging
+102 silly getExecOpts { cwd: '/Users/jshcrowthe/Repos/firebase-js-sdk/packages/messaging',
+102 silly getExecOpts   env:
+102 silly getExecOpts    { __CF_USER_TEXT_ENCODING: '0x6DC9D:0x0:0x0',
+102 silly getExecOpts      TMPDIR: '/var/folders/rr/jgb7mcq52kb1dbckmt7d4wcm00dq4x/T/',
+102 silly getExecOpts      HOME: '/Users/jshcrowthe',
+102 silly getExecOpts      SHELL: '/bin/zsh',
+102 silly getExecOpts      SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.QzIojVt9Mh/Listeners',
+102 silly getExecOpts      Apple_PubSub_Socket_Render: '/private/tmp/com.apple.launchd.keBRBoXElo/Render',
+102 silly getExecOpts      PATH: '/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/Users/jshcrowthe/google-cloud-sdk/bin:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin:/Users/jshcrowthe/.bin:/Users/jshcrowthe/.yarn-config/global/node_modules/.bin',
+102 silly getExecOpts      LOGNAME: 'jshcrowthe',
+102 silly getExecOpts      XPC_SERVICE_NAME: '0',
+102 silly getExecOpts      COMMAND_MODE: 'unix2003',
+102 silly getExecOpts      USER: 'jshcrowthe',
+102 silly getExecOpts      XPC_FLAGS: '0x0',
+102 silly getExecOpts      LANG: 'en_US.UTF-8',
+102 silly getExecOpts      TERM: 'xterm-256color',
+102 silly getExecOpts      TERM_PROGRAM: 'Hyper',
+102 silly getExecOpts      TERM_PROGRAM_VERSION: '1.4.2',
+102 silly getExecOpts      SHLVL: '1',
+102 silly getExecOpts      PWD: '/Users/jshcrowthe/Repos/firebase-js-sdk',
+102 silly getExecOpts      OLDPWD: '/Users/jshcrowthe',
+102 silly getExecOpts      FIREBASE_DEV_SETUP_HOME: '/Users/jshcrowthe/.firebase',
+102 silly getExecOpts      ZSH: '/Users/jshcrowthe/.oh-my-zsh',
+102 silly getExecOpts      PAGER: 'less',
+102 silly getExecOpts      LESS: '-R',
+102 silly getExecOpts      LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+102 silly getExecOpts      LC_CTYPE: 'en_US.UTF-8',
+102 silly getExecOpts      NVM_DIR: '/Users/jshcrowthe/.nvm',
+102 silly getExecOpts      NVM_CD_FLAGS: '-q',
+102 silly getExecOpts      NVM_NODEJS_ORG_MIRROR: 'https://nodejs.org/dist',
+102 silly getExecOpts      NVM_IOJS_ORG_MIRROR: 'https://iojs.org/dist',
+102 silly getExecOpts      MANPATH: '/usr/share/man:/usr/local/share/man:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/share/man:/usr/local/git/current/share/man:/Library/Developer/CommandLineTools/usr/share/man',
+102 silly getExecOpts      NVM_BIN: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin',
+102 silly getExecOpts      SK_SIGNING_PLUGIN: 'gnubbyagent',
+102 silly getExecOpts      _: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin/lerna',
+102 silly getExecOpts      npm_config_registry: 'http://localhost:4873' } }
+103 verbose publishing @firebase/polyfill
+104 silly publishTaggedInDir latest polyfill
+105 silly getExecOpts { cwd: '/Users/jshcrowthe/Repos/firebase-js-sdk/packages/polyfill',
+105 silly getExecOpts   env:
+105 silly getExecOpts    { __CF_USER_TEXT_ENCODING: '0x6DC9D:0x0:0x0',
+105 silly getExecOpts      TMPDIR: '/var/folders/rr/jgb7mcq52kb1dbckmt7d4wcm00dq4x/T/',
+105 silly getExecOpts      HOME: '/Users/jshcrowthe',
+105 silly getExecOpts      SHELL: '/bin/zsh',
+105 silly getExecOpts      SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.QzIojVt9Mh/Listeners',
+105 silly getExecOpts      Apple_PubSub_Socket_Render: '/private/tmp/com.apple.launchd.keBRBoXElo/Render',
+105 silly getExecOpts      PATH: '/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/Users/jshcrowthe/google-cloud-sdk/bin:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin:/Users/jshcrowthe/.bin:/Users/jshcrowthe/.yarn-config/global/node_modules/.bin',
+105 silly getExecOpts      LOGNAME: 'jshcrowthe',
+105 silly getExecOpts      XPC_SERVICE_NAME: '0',
+105 silly getExecOpts      COMMAND_MODE: 'unix2003',
+105 silly getExecOpts      USER: 'jshcrowthe',
+105 silly getExecOpts      XPC_FLAGS: '0x0',
+105 silly getExecOpts      LANG: 'en_US.UTF-8',
+105 silly getExecOpts      TERM: 'xterm-256color',
+105 silly getExecOpts      TERM_PROGRAM: 'Hyper',
+105 silly getExecOpts      TERM_PROGRAM_VERSION: '1.4.2',
+105 silly getExecOpts      SHLVL: '1',
+105 silly getExecOpts      PWD: '/Users/jshcrowthe/Repos/firebase-js-sdk',
+105 silly getExecOpts      OLDPWD: '/Users/jshcrowthe',
+105 silly getExecOpts      FIREBASE_DEV_SETUP_HOME: '/Users/jshcrowthe/.firebase',
+105 silly getExecOpts      ZSH: '/Users/jshcrowthe/.oh-my-zsh',
+105 silly getExecOpts      PAGER: 'less',
+105 silly getExecOpts      LESS: '-R',
+105 silly getExecOpts      LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+105 silly getExecOpts      LC_CTYPE: 'en_US.UTF-8',
+105 silly getExecOpts      NVM_DIR: '/Users/jshcrowthe/.nvm',
+105 silly getExecOpts      NVM_CD_FLAGS: '-q',
+105 silly getExecOpts      NVM_NODEJS_ORG_MIRROR: 'https://nodejs.org/dist',
+105 silly getExecOpts      NVM_IOJS_ORG_MIRROR: 'https://iojs.org/dist',
+105 silly getExecOpts      MANPATH: '/usr/share/man:/usr/local/share/man:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/share/man:/usr/local/git/current/share/man:/Library/Developer/CommandLineTools/usr/share/man',
+105 silly getExecOpts      NVM_BIN: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin',
+105 silly getExecOpts      SK_SIGNING_PLUGIN: 'gnubbyagent',
+105 silly getExecOpts      _: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin/lerna',
+105 silly getExecOpts      npm_config_registry: 'http://localhost:4873' } }
+106 verbose publishing @firebase/util
+107 silly publishTaggedInDir latest util
+108 silly getExecOpts { cwd: '/Users/jshcrowthe/Repos/firebase-js-sdk/packages/util',
+108 silly getExecOpts   env:
+108 silly getExecOpts    { __CF_USER_TEXT_ENCODING: '0x6DC9D:0x0:0x0',
+108 silly getExecOpts      TMPDIR: '/var/folders/rr/jgb7mcq52kb1dbckmt7d4wcm00dq4x/T/',
+108 silly getExecOpts      HOME: '/Users/jshcrowthe',
+108 silly getExecOpts      SHELL: '/bin/zsh',
+108 silly getExecOpts      SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.QzIojVt9Mh/Listeners',
+108 silly getExecOpts      Apple_PubSub_Socket_Render: '/private/tmp/com.apple.launchd.keBRBoXElo/Render',
+108 silly getExecOpts      PATH: '/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/Users/jshcrowthe/google-cloud-sdk/bin:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin:/Users/jshcrowthe/.bin:/Users/jshcrowthe/.yarn-config/global/node_modules/.bin',
+108 silly getExecOpts      LOGNAME: 'jshcrowthe',
+108 silly getExecOpts      XPC_SERVICE_NAME: '0',
+108 silly getExecOpts      COMMAND_MODE: 'unix2003',
+108 silly getExecOpts      USER: 'jshcrowthe',
+108 silly getExecOpts      XPC_FLAGS: '0x0',
+108 silly getExecOpts      LANG: 'en_US.UTF-8',
+108 silly getExecOpts      TERM: 'xterm-256color',
+108 silly getExecOpts      TERM_PROGRAM: 'Hyper',
+108 silly getExecOpts      TERM_PROGRAM_VERSION: '1.4.2',
+108 silly getExecOpts      SHLVL: '1',
+108 silly getExecOpts      PWD: '/Users/jshcrowthe/Repos/firebase-js-sdk',
+108 silly getExecOpts      OLDPWD: '/Users/jshcrowthe',
+108 silly getExecOpts      FIREBASE_DEV_SETUP_HOME: '/Users/jshcrowthe/.firebase',
+108 silly getExecOpts      ZSH: '/Users/jshcrowthe/.oh-my-zsh',
+108 silly getExecOpts      PAGER: 'less',
+108 silly getExecOpts      LESS: '-R',
+108 silly getExecOpts      LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+108 silly getExecOpts      LC_CTYPE: 'en_US.UTF-8',
+108 silly getExecOpts      NVM_DIR: '/Users/jshcrowthe/.nvm',
+108 silly getExecOpts      NVM_CD_FLAGS: '-q',
+108 silly getExecOpts      NVM_NODEJS_ORG_MIRROR: 'https://nodejs.org/dist',
+108 silly getExecOpts      NVM_IOJS_ORG_MIRROR: 'https://iojs.org/dist',
+108 silly getExecOpts      MANPATH: '/usr/share/man:/usr/local/share/man:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/share/man:/usr/local/git/current/share/man:/Library/Developer/CommandLineTools/usr/share/man',
+108 silly getExecOpts      NVM_BIN: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin',
+108 silly getExecOpts      SK_SIGNING_PLUGIN: 'gnubbyagent',
+108 silly getExecOpts      _: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin/lerna',
+108 silly getExecOpts      npm_config_registry: 'http://localhost:4873' } }
+109 info published firebase
+110 silly existsSync /Users/jshcrowthe/Repos/firebase-js-sdk/packages/core/scripts/postpublish.js
+111 verbose execScript No postpublish script found at /Users/jshcrowthe/Repos/firebase-js-sdk/packages/core/scripts/postpublish.js
+112 info published @firebase/polyfill
+113 silly existsSync /Users/jshcrowthe/Repos/firebase-js-sdk/packages/polyfill/scripts/postpublish.js
+114 verbose execScript No postpublish script found at /Users/jshcrowthe/Repos/firebase-js-sdk/packages/polyfill/scripts/postpublish.js
+115 info published @firebase/util
+116 silly existsSync /Users/jshcrowthe/Repos/firebase-js-sdk/packages/util/scripts/postpublish.js
+117 verbose execScript No postpublish script found at /Users/jshcrowthe/Repos/firebase-js-sdk/packages/util/scripts/postpublish.js
+118 error publish Retrying failed publish: @firebase/messaging
+119 verbose publish error Error: Command failed: npm publish --tag latest
+119 verbose publish error npm WARN prepublish-on-install As of npm@5, `prepublish` scripts are deprecated.
+119 verbose publish error npm WARN prepublish-on-install Use `prepare` for build steps and `prepublishOnly` for upload-only.
+119 verbose publish error npm WARN prepublish-on-install See the deprecation note in `npm help scripts` for more information.
+119 verbose publish error npm ERR! code ELIFECYCLE
+119 verbose publish error npm ERR! errno 2
+119 verbose publish error npm ERR! @firebase/messaging@0.1.0 prepublish: `tsc`
+119 verbose publish error npm ERR! Exit status 2
+119 verbose publish error npm ERR!
+119 verbose publish error npm ERR! Failed at the @firebase/messaging@0.1.0 prepublish script.
+119 verbose publish error npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+119 verbose publish error
+119 verbose publish error npm ERR! A complete log of this run can be found in:
+119 verbose publish error npm ERR!     /Users/jshcrowthe/.npm/_logs/2017-08-30T21_55_25_370Z-debug.log
+119 verbose publish error
+119 verbose publish error > @firebase/messaging@0.1.0 prepublish .
+119 verbose publish error > tsc
+119 verbose publish error
+119 verbose publish error src/controllers/controller-interface.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+119 verbose publish error src/controllers/window-controller.ts(23,33): error TS2307: Cannot find module '../../app/subscribe'.
+119 verbose publish error src/models/db-interface.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+119 verbose publish error src/models/token-manager.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+119 verbose publish error
+119 verbose publish error     at Promise.all.then.arr (/Users/jshcrowthe/.nvm/versions/node/v8.4.0/lib/node_modules/lerna/node_modules/execa/index.js:236:11)
+119 verbose publish error     at <anonymous>
+119 verbose publish error     at process._tickCallback (internal/process/next_tick.js:188:7)
+120 verbose publishing @firebase/messaging
+121 silly publishTaggedInDir latest messaging
+122 silly getExecOpts { cwd: '/Users/jshcrowthe/Repos/firebase-js-sdk/packages/messaging',
+122 silly getExecOpts   env:
+122 silly getExecOpts    { __CF_USER_TEXT_ENCODING: '0x6DC9D:0x0:0x0',
+122 silly getExecOpts      TMPDIR: '/var/folders/rr/jgb7mcq52kb1dbckmt7d4wcm00dq4x/T/',
+122 silly getExecOpts      HOME: '/Users/jshcrowthe',
+122 silly getExecOpts      SHELL: '/bin/zsh',
+122 silly getExecOpts      SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.QzIojVt9Mh/Listeners',
+122 silly getExecOpts      Apple_PubSub_Socket_Render: '/private/tmp/com.apple.launchd.keBRBoXElo/Render',
+122 silly getExecOpts      PATH: '/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/Users/jshcrowthe/google-cloud-sdk/bin:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin:/Users/jshcrowthe/.bin:/Users/jshcrowthe/.yarn-config/global/node_modules/.bin',
+122 silly getExecOpts      LOGNAME: 'jshcrowthe',
+122 silly getExecOpts      XPC_SERVICE_NAME: '0',
+122 silly getExecOpts      COMMAND_MODE: 'unix2003',
+122 silly getExecOpts      USER: 'jshcrowthe',
+122 silly getExecOpts      XPC_FLAGS: '0x0',
+122 silly getExecOpts      LANG: 'en_US.UTF-8',
+122 silly getExecOpts      TERM: 'xterm-256color',
+122 silly getExecOpts      TERM_PROGRAM: 'Hyper',
+122 silly getExecOpts      TERM_PROGRAM_VERSION: '1.4.2',
+122 silly getExecOpts      SHLVL: '1',
+122 silly getExecOpts      PWD: '/Users/jshcrowthe/Repos/firebase-js-sdk',
+122 silly getExecOpts      OLDPWD: '/Users/jshcrowthe',
+122 silly getExecOpts      FIREBASE_DEV_SETUP_HOME: '/Users/jshcrowthe/.firebase',
+122 silly getExecOpts      ZSH: '/Users/jshcrowthe/.oh-my-zsh',
+122 silly getExecOpts      PAGER: 'less',
+122 silly getExecOpts      LESS: '-R',
+122 silly getExecOpts      LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+122 silly getExecOpts      LC_CTYPE: 'en_US.UTF-8',
+122 silly getExecOpts      NVM_DIR: '/Users/jshcrowthe/.nvm',
+122 silly getExecOpts      NVM_CD_FLAGS: '-q',
+122 silly getExecOpts      NVM_NODEJS_ORG_MIRROR: 'https://nodejs.org/dist',
+122 silly getExecOpts      NVM_IOJS_ORG_MIRROR: 'https://iojs.org/dist',
+122 silly getExecOpts      MANPATH: '/usr/share/man:/usr/local/share/man:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/share/man:/usr/local/git/current/share/man:/Library/Developer/CommandLineTools/usr/share/man',
+122 silly getExecOpts      NVM_BIN: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin',
+122 silly getExecOpts      SK_SIGNING_PLUGIN: 'gnubbyagent',
+122 silly getExecOpts      _: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin/lerna',
+122 silly getExecOpts      npm_config_registry: 'http://localhost:4873' } }
+123 error publish Retrying failed publish: @firebase/messaging
+124 verbose publish error Error: Command failed: npm publish --tag latest
+124 verbose publish error npm WARN prepublish-on-install As of npm@5, `prepublish` scripts are deprecated.
+124 verbose publish error npm WARN prepublish-on-install Use `prepare` for build steps and `prepublishOnly` for upload-only.
+124 verbose publish error npm WARN prepublish-on-install See the deprecation note in `npm help scripts` for more information.
+124 verbose publish error npm ERR! code ELIFECYCLE
+124 verbose publish error npm ERR! errno 2
+124 verbose publish error npm ERR! @firebase/messaging@0.1.0 prepublish: `tsc`
+124 verbose publish error npm ERR! Exit status 2
+124 verbose publish error npm ERR!
+124 verbose publish error npm ERR! Failed at the @firebase/messaging@0.1.0 prepublish script.
+124 verbose publish error npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+124 verbose publish error
+124 verbose publish error npm ERR! A complete log of this run can be found in:
+124 verbose publish error npm ERR!     /Users/jshcrowthe/.npm/_logs/2017-08-30T21_55_29_176Z-debug.log
+124 verbose publish error
+124 verbose publish error > @firebase/messaging@0.1.0 prepublish .
+124 verbose publish error > tsc
+124 verbose publish error
+124 verbose publish error src/controllers/controller-interface.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+124 verbose publish error src/controllers/window-controller.ts(23,33): error TS2307: Cannot find module '../../app/subscribe'.
+124 verbose publish error src/models/db-interface.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+124 verbose publish error src/models/token-manager.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+124 verbose publish error
+124 verbose publish error     at Promise.all.then.arr (/Users/jshcrowthe/.nvm/versions/node/v8.4.0/lib/node_modules/lerna/node_modules/execa/index.js:236:11)
+124 verbose publish error     at <anonymous>
+124 verbose publish error     at process._tickCallback (internal/process/next_tick.js:188:7)
+125 verbose publishing @firebase/messaging
+126 silly publishTaggedInDir latest messaging
+127 silly getExecOpts { cwd: '/Users/jshcrowthe/Repos/firebase-js-sdk/packages/messaging',
+127 silly getExecOpts   env:
+127 silly getExecOpts    { __CF_USER_TEXT_ENCODING: '0x6DC9D:0x0:0x0',
+127 silly getExecOpts      TMPDIR: '/var/folders/rr/jgb7mcq52kb1dbckmt7d4wcm00dq4x/T/',
+127 silly getExecOpts      HOME: '/Users/jshcrowthe',
+127 silly getExecOpts      SHELL: '/bin/zsh',
+127 silly getExecOpts      SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.QzIojVt9Mh/Listeners',
+127 silly getExecOpts      Apple_PubSub_Socket_Render: '/private/tmp/com.apple.launchd.keBRBoXElo/Render',
+127 silly getExecOpts      PATH: '/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/Users/jshcrowthe/google-cloud-sdk/bin:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin:/Users/jshcrowthe/.bin:/Users/jshcrowthe/.yarn-config/global/node_modules/.bin',
+127 silly getExecOpts      LOGNAME: 'jshcrowthe',
+127 silly getExecOpts      XPC_SERVICE_NAME: '0',
+127 silly getExecOpts      COMMAND_MODE: 'unix2003',
+127 silly getExecOpts      USER: 'jshcrowthe',
+127 silly getExecOpts      XPC_FLAGS: '0x0',
+127 silly getExecOpts      LANG: 'en_US.UTF-8',
+127 silly getExecOpts      TERM: 'xterm-256color',
+127 silly getExecOpts      TERM_PROGRAM: 'Hyper',
+127 silly getExecOpts      TERM_PROGRAM_VERSION: '1.4.2',
+127 silly getExecOpts      SHLVL: '1',
+127 silly getExecOpts      PWD: '/Users/jshcrowthe/Repos/firebase-js-sdk',
+127 silly getExecOpts      OLDPWD: '/Users/jshcrowthe',
+127 silly getExecOpts      FIREBASE_DEV_SETUP_HOME: '/Users/jshcrowthe/.firebase',
+127 silly getExecOpts      ZSH: '/Users/jshcrowthe/.oh-my-zsh',
+127 silly getExecOpts      PAGER: 'less',
+127 silly getExecOpts      LESS: '-R',
+127 silly getExecOpts      LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+127 silly getExecOpts      LC_CTYPE: 'en_US.UTF-8',
+127 silly getExecOpts      NVM_DIR: '/Users/jshcrowthe/.nvm',
+127 silly getExecOpts      NVM_CD_FLAGS: '-q',
+127 silly getExecOpts      NVM_NODEJS_ORG_MIRROR: 'https://nodejs.org/dist',
+127 silly getExecOpts      NVM_IOJS_ORG_MIRROR: 'https://iojs.org/dist',
+127 silly getExecOpts      MANPATH: '/usr/share/man:/usr/local/share/man:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/share/man:/usr/local/git/current/share/man:/Library/Developer/CommandLineTools/usr/share/man',
+127 silly getExecOpts      NVM_BIN: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin',
+127 silly getExecOpts      SK_SIGNING_PLUGIN: 'gnubbyagent',
+127 silly getExecOpts      _: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin/lerna',
+127 silly getExecOpts      npm_config_registry: 'http://localhost:4873' } }
+128 error publish Retrying failed publish: @firebase/messaging
+129 verbose publish error Error: Command failed: npm publish --tag latest
+129 verbose publish error npm WARN prepublish-on-install As of npm@5, `prepublish` scripts are deprecated.
+129 verbose publish error npm WARN prepublish-on-install Use `prepare` for build steps and `prepublishOnly` for upload-only.
+129 verbose publish error npm WARN prepublish-on-install See the deprecation note in `npm help scripts` for more information.
+129 verbose publish error npm ERR! code ELIFECYCLE
+129 verbose publish error npm ERR! errno 2
+129 verbose publish error npm ERR! @firebase/messaging@0.1.0 prepublish: `tsc`
+129 verbose publish error npm ERR! Exit status 2
+129 verbose publish error npm ERR!
+129 verbose publish error npm ERR! Failed at the @firebase/messaging@0.1.0 prepublish script.
+129 verbose publish error npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+129 verbose publish error
+129 verbose publish error npm ERR! A complete log of this run can be found in:
+129 verbose publish error npm ERR!     /Users/jshcrowthe/.npm/_logs/2017-08-30T21_55_32_801Z-debug.log
+129 verbose publish error
+129 verbose publish error > @firebase/messaging@0.1.0 prepublish .
+129 verbose publish error > tsc
+129 verbose publish error
+129 verbose publish error src/controllers/controller-interface.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+129 verbose publish error src/controllers/window-controller.ts(23,33): error TS2307: Cannot find module '../../app/subscribe'.
+129 verbose publish error src/models/db-interface.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+129 verbose publish error src/models/token-manager.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+129 verbose publish error
+129 verbose publish error     at Promise.all.then.arr (/Users/jshcrowthe/.nvm/versions/node/v8.4.0/lib/node_modules/lerna/node_modules/execa/index.js:236:11)
+129 verbose publish error     at <anonymous>
+129 verbose publish error     at process._tickCallback (internal/process/next_tick.js:188:7)
+130 verbose publishing @firebase/messaging
+131 silly publishTaggedInDir latest messaging
+132 silly getExecOpts { cwd: '/Users/jshcrowthe/Repos/firebase-js-sdk/packages/messaging',
+132 silly getExecOpts   env:
+132 silly getExecOpts    { __CF_USER_TEXT_ENCODING: '0x6DC9D:0x0:0x0',
+132 silly getExecOpts      TMPDIR: '/var/folders/rr/jgb7mcq52kb1dbckmt7d4wcm00dq4x/T/',
+132 silly getExecOpts      HOME: '/Users/jshcrowthe',
+132 silly getExecOpts      SHELL: '/bin/zsh',
+132 silly getExecOpts      SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.QzIojVt9Mh/Listeners',
+132 silly getExecOpts      Apple_PubSub_Socket_Render: '/private/tmp/com.apple.launchd.keBRBoXElo/Render',
+132 silly getExecOpts      PATH: '/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/Users/jshcrowthe/google-cloud-sdk/bin:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin:/Users/jshcrowthe/.bin:/Users/jshcrowthe/.yarn-config/global/node_modules/.bin',
+132 silly getExecOpts      LOGNAME: 'jshcrowthe',
+132 silly getExecOpts      XPC_SERVICE_NAME: '0',
+132 silly getExecOpts      COMMAND_MODE: 'unix2003',
+132 silly getExecOpts      USER: 'jshcrowthe',
+132 silly getExecOpts      XPC_FLAGS: '0x0',
+132 silly getExecOpts      LANG: 'en_US.UTF-8',
+132 silly getExecOpts      TERM: 'xterm-256color',
+132 silly getExecOpts      TERM_PROGRAM: 'Hyper',
+132 silly getExecOpts      TERM_PROGRAM_VERSION: '1.4.2',
+132 silly getExecOpts      SHLVL: '1',
+132 silly getExecOpts      PWD: '/Users/jshcrowthe/Repos/firebase-js-sdk',
+132 silly getExecOpts      OLDPWD: '/Users/jshcrowthe',
+132 silly getExecOpts      FIREBASE_DEV_SETUP_HOME: '/Users/jshcrowthe/.firebase',
+132 silly getExecOpts      ZSH: '/Users/jshcrowthe/.oh-my-zsh',
+132 silly getExecOpts      PAGER: 'less',
+132 silly getExecOpts      LESS: '-R',
+132 silly getExecOpts      LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+132 silly getExecOpts      LC_CTYPE: 'en_US.UTF-8',
+132 silly getExecOpts      NVM_DIR: '/Users/jshcrowthe/.nvm',
+132 silly getExecOpts      NVM_CD_FLAGS: '-q',
+132 silly getExecOpts      NVM_NODEJS_ORG_MIRROR: 'https://nodejs.org/dist',
+132 silly getExecOpts      NVM_IOJS_ORG_MIRROR: 'https://iojs.org/dist',
+132 silly getExecOpts      MANPATH: '/usr/share/man:/usr/local/share/man:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/share/man:/usr/local/git/current/share/man:/Library/Developer/CommandLineTools/usr/share/man',
+132 silly getExecOpts      NVM_BIN: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin',
+132 silly getExecOpts      SK_SIGNING_PLUGIN: 'gnubbyagent',
+132 silly getExecOpts      _: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin/lerna',
+132 silly getExecOpts      npm_config_registry: 'http://localhost:4873' } }
+133 error publish Retrying failed publish: @firebase/messaging
+134 verbose publish error Error: Command failed: npm publish --tag latest
+134 verbose publish error npm WARN prepublish-on-install As of npm@5, `prepublish` scripts are deprecated.
+134 verbose publish error npm WARN prepublish-on-install Use `prepare` for build steps and `prepublishOnly` for upload-only.
+134 verbose publish error npm WARN prepublish-on-install See the deprecation note in `npm help scripts` for more information.
+134 verbose publish error npm ERR! code ELIFECYCLE
+134 verbose publish error npm ERR! errno 2
+134 verbose publish error npm ERR! @firebase/messaging@0.1.0 prepublish: `tsc`
+134 verbose publish error npm ERR! Exit status 2
+134 verbose publish error npm ERR!
+134 verbose publish error npm ERR! Failed at the @firebase/messaging@0.1.0 prepublish script.
+134 verbose publish error npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+134 verbose publish error
+134 verbose publish error npm ERR! A complete log of this run can be found in:
+134 verbose publish error npm ERR!     /Users/jshcrowthe/.npm/_logs/2017-08-30T21_55_36_446Z-debug.log
+134 verbose publish error
+134 verbose publish error > @firebase/messaging@0.1.0 prepublish .
+134 verbose publish error > tsc
+134 verbose publish error
+134 verbose publish error src/controllers/controller-interface.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+134 verbose publish error src/controllers/window-controller.ts(23,33): error TS2307: Cannot find module '../../app/subscribe'.
+134 verbose publish error src/models/db-interface.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+134 verbose publish error src/models/token-manager.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+134 verbose publish error
+134 verbose publish error     at Promise.all.then.arr (/Users/jshcrowthe/.nvm/versions/node/v8.4.0/lib/node_modules/lerna/node_modules/execa/index.js:236:11)
+134 verbose publish error     at <anonymous>
+134 verbose publish error     at process._tickCallback (internal/process/next_tick.js:188:7)
+135 verbose publishing @firebase/messaging
+136 silly publishTaggedInDir latest messaging
+137 silly getExecOpts { cwd: '/Users/jshcrowthe/Repos/firebase-js-sdk/packages/messaging',
+137 silly getExecOpts   env:
+137 silly getExecOpts    { __CF_USER_TEXT_ENCODING: '0x6DC9D:0x0:0x0',
+137 silly getExecOpts      TMPDIR: '/var/folders/rr/jgb7mcq52kb1dbckmt7d4wcm00dq4x/T/',
+137 silly getExecOpts      HOME: '/Users/jshcrowthe',
+137 silly getExecOpts      SHELL: '/bin/zsh',
+137 silly getExecOpts      SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.QzIojVt9Mh/Listeners',
+137 silly getExecOpts      Apple_PubSub_Socket_Render: '/private/tmp/com.apple.launchd.keBRBoXElo/Render',
+137 silly getExecOpts      PATH: '/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/Users/jshcrowthe/google-cloud-sdk/bin:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin:/Users/jshcrowthe/.bin:/Users/jshcrowthe/.yarn-config/global/node_modules/.bin',
+137 silly getExecOpts      LOGNAME: 'jshcrowthe',
+137 silly getExecOpts      XPC_SERVICE_NAME: '0',
+137 silly getExecOpts      COMMAND_MODE: 'unix2003',
+137 silly getExecOpts      USER: 'jshcrowthe',
+137 silly getExecOpts      XPC_FLAGS: '0x0',
+137 silly getExecOpts      LANG: 'en_US.UTF-8',
+137 silly getExecOpts      TERM: 'xterm-256color',
+137 silly getExecOpts      TERM_PROGRAM: 'Hyper',
+137 silly getExecOpts      TERM_PROGRAM_VERSION: '1.4.2',
+137 silly getExecOpts      SHLVL: '1',
+137 silly getExecOpts      PWD: '/Users/jshcrowthe/Repos/firebase-js-sdk',
+137 silly getExecOpts      OLDPWD: '/Users/jshcrowthe',
+137 silly getExecOpts      FIREBASE_DEV_SETUP_HOME: '/Users/jshcrowthe/.firebase',
+137 silly getExecOpts      ZSH: '/Users/jshcrowthe/.oh-my-zsh',
+137 silly getExecOpts      PAGER: 'less',
+137 silly getExecOpts      LESS: '-R',
+137 silly getExecOpts      LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+137 silly getExecOpts      LC_CTYPE: 'en_US.UTF-8',
+137 silly getExecOpts      NVM_DIR: '/Users/jshcrowthe/.nvm',
+137 silly getExecOpts      NVM_CD_FLAGS: '-q',
+137 silly getExecOpts      NVM_NODEJS_ORG_MIRROR: 'https://nodejs.org/dist',
+137 silly getExecOpts      NVM_IOJS_ORG_MIRROR: 'https://iojs.org/dist',
+137 silly getExecOpts      MANPATH: '/usr/share/man:/usr/local/share/man:/Users/jshcrowthe/.nvm/versions/node/v8.4.0/share/man:/usr/local/git/current/share/man:/Library/Developer/CommandLineTools/usr/share/man',
+137 silly getExecOpts      NVM_BIN: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin',
+137 silly getExecOpts      SK_SIGNING_PLUGIN: 'gnubbyagent',
+137 silly getExecOpts      _: '/Users/jshcrowthe/.nvm/versions/node/v8.4.0/bin/lerna',
+137 silly getExecOpts      npm_config_registry: 'http://localhost:4873' } }
+138 error publish Ran out of retries while publishing @firebase/messaging Error: Command failed: npm publish --tag latest
+138 error publish npm WARN prepublish-on-install As of npm@5, `prepublish` scripts are deprecated.
+138 error publish npm WARN prepublish-on-install Use `prepare` for build steps and `prepublishOnly` for upload-only.
+138 error publish npm WARN prepublish-on-install See the deprecation note in `npm help scripts` for more information.
+138 error publish npm ERR! code ELIFECYCLE
+138 error publish npm ERR! errno 2
+138 error publish npm ERR! @firebase/messaging@0.1.0 prepublish: `tsc`
+138 error publish npm ERR! Exit status 2
+138 error publish npm ERR!
+138 error publish npm ERR! Failed at the @firebase/messaging@0.1.0 prepublish script.
+138 error publish npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+138 error publish
+138 error publish npm ERR! A complete log of this run can be found in:
+138 error publish npm ERR!     /Users/jshcrowthe/.npm/_logs/2017-08-30T21_55_40_380Z-debug.log
+138 error publish
+138 error publish > @firebase/messaging@0.1.0 prepublish .
+138 error publish > tsc
+138 error publish
+138 error publish src/controllers/controller-interface.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+138 error publish src/controllers/window-controller.ts(23,33): error TS2307: Cannot find module '../../app/subscribe'.
+138 error publish src/models/db-interface.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+138 error publish src/models/token-manager.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+138 error publish
+138 error publish     at Promise.all.then.arr (/Users/jshcrowthe/.nvm/versions/node/v8.4.0/lib/node_modules/lerna/node_modules/execa/index.js:236:11)
+138 error publish     at <anonymous>
+138 error publish     at process._tickCallback (internal/process/next_tick.js:188:7)
+139 error execute callback with error
+139 error execute  Error: Command failed: npm publish --tag latest
+139 error execute npm WARN prepublish-on-install As of npm@5, `prepublish` scripts are deprecated.
+139 error execute npm WARN prepublish-on-install Use `prepare` for build steps and `prepublishOnly` for upload-only.
+139 error execute npm WARN prepublish-on-install See the deprecation note in `npm help scripts` for more information.
+139 error execute npm ERR! code ELIFECYCLE
+139 error execute npm ERR! errno 2
+139 error execute npm ERR! @firebase/messaging@0.1.0 prepublish: `tsc`
+139 error execute npm ERR! Exit status 2
+139 error execute npm ERR!
+139 error execute npm ERR! Failed at the @firebase/messaging@0.1.0 prepublish script.
+139 error execute npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+139 error execute
+139 error execute npm ERR! A complete log of this run can be found in:
+139 error execute npm ERR!     /Users/jshcrowthe/.npm/_logs/2017-08-30T21_55_40_380Z-debug.log
+139 error execute
+139 error execute > @firebase/messaging@0.1.0 prepublish .
+139 error execute > tsc
+139 error execute
+139 error execute src/controllers/controller-interface.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+139 error execute src/controllers/window-controller.ts(23,33): error TS2307: Cannot find module '../../app/subscribe'.
+139 error execute src/models/db-interface.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+139 error execute src/models/token-manager.ts(18,30): error TS2307: Cannot find module '../../app/errors'.
+139 error execute
+139 error execute     at Promise.all.then.arr (/Users/jshcrowthe/.nvm/versions/node/v8.4.0/lib/node_modules/lerna/node_modules/execa/index.js:236:11)
+139 error execute     at <anonymous>
+139 error execute     at process._tickCallback (internal/process/next_tick.js:188:7)
