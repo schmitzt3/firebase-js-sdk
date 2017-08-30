@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "prepublish":"tsc"
+    "prepublish": "tsc"
   },
   "author": "",
   "license": "ISC"
