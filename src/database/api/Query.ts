@@ -63,7 +63,6 @@ export class Query {
   }
 
   static get __referenceConstructor() {
-    assert(__referenceConstructor, 'Reference.ts has not been loaded');
     return __referenceConstructor;
   }
 
